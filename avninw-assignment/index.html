@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<title>Avni Networks assignment</title>
+				<link href="/avninw-assignment/webdocs/css/bootstrap.min.css" rel="stylesheet" media="screen">
+				<link href="/avninw-assignment/webdocs/app.css" rel="stylesheet" media="screen">
+				<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+				<!--[if lt IE 9]>
+					<script src="/avninw-assignment/webdocs/assets/js/html5shiv.js"></script>
+					<script src="/avninw-assignment/webdocs/assets/js/respond.min.js"></script>
+				<![endif]-->
+		</head>
+		<body>
+			<div class="container">
+  				<div class="row">
+  					<div class="col-md-8">
+  						<form role="form">
+							<div class="form-group">
+								<label for="bandwidth" class="col-lg-2">Bandwidth</label>
+								<input type="range" class="rangeEl col-lg-9" min="100" max="1000" step="100" value="0" id="bandwidth"/>								
+								<p class="help-block disabled col-lg-1" id="bandwidth-value">0</p>
+							</div>
+							<div class="form-group">
+								<label for="connpersec" class="col-lg-2">Connection per second</label>
+								<input id="connpersec" type="range" class="col-lg-9 rangeEl" min="100" max="1000" step="10" value="0" />
+								<p class="help-block disabled col-lg-1" id="connpersec-value">0</p>
+							</div>  
+  						</form>
+  					</div>
+  					<div class="col-md-4">
+  						<div id="category">
+  							<p class="label"></p>
+  							<h5>Legend:</h5>
+  							<span class="label label-success">Low</span>
+  							<span class="label label-warning">Medium</span>
+  							<span class="label label-danger">High</span>
+  						</div>
+  					</div>
+  				</div>
+			</div>
+			<script src="/avninw-assignment/webdocs/assets/js/jquery.js"></script>			
+			<script src="/avninw-assignment/webdocs/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="/avninw-assignment/webdocs/app.js"></script>
+		</body>
+</html>

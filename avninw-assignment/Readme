@@ -1,0 +1,6 @@
+1.	It is tested only in chrome and firefox
+2.	The code has to be deployed under the a folder called "avninw-assignment" as the first child under root of the webserver
+3.	Not added any comments - just for the time contrain
+4.	Removed all the debugging statement
+5.	It targets only the large screen
+6.	Used the twitter bootstrap to complete the assignment
